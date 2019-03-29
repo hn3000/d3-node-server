@@ -1,0 +1,30 @@
+{
+  "name": "d3-node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "prestart": "tsc",
+    "start": "node out/index.js",
+    "tsc": "tsc",
+    "build": "tsc",
+    "predocker": "npm run prepare",
+    "docker": "docker build ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hn3000/metaapi": "^0.4.3",
+    "canvas": "^2.4.1",
+    "d3": "^5.9.2",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.7.1",
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.12.1",
+    "typescript": "^3.3.4000"
+  }
+}
