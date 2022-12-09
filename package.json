@@ -19,7 +19,7 @@
     "@hn3000/metaapi": "^0.4.3",
     "canvas": "^2.4.1",
     "d3": "^5.9.2",
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "@types/d3": "^5.7.1",
